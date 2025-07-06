@@ -1,0 +1,48 @@
+# Node modules (dependências instaladas)
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.swo
+
+# Diretórios do sistema
+.DS_Store
+Thumbs.db
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build (se estiver usando TypeScript ou bundler)
+dist/
+build/
+
+# Banco de dados local (SQLite, por exemplo)
+*.sqlite
+*.sqlite3
+*.db
+
+# Debug / testes
+coverage/
+.vscode/
+.idea/
+
+# Histórico do nodemon
+nodemon.json
+
+# Arquivos exportados ou gerados
+*.tgz
+*.bak
+*.old
+*.zip
